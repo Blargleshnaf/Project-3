@@ -41,7 +41,11 @@ h6 { font-size: 14px; }
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 /* -----------------------------------------
    Page Styles
@@ -176,4 +180,39 @@ body {
 
 /* -----------------------------------------
 	Footer
+----------------------------------------- 
+
+/* -----------------------------------------
+	JQTouch button
 ----------------------------------------- */
+
+#jqt .page button {
+	display: block;
+	width: 99%;
+	margin: 1em .5% 0 !important;
+}
+
+/* -----------------------------------------
+	Clearfix from example (still unsure what this is for, but heck it must do something)
+----------------------------------------- */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
