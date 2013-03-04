@@ -55,6 +55,17 @@ body {
 	padding: 1em;
 }
 
+.article-quote{
+	display: block;
+	clear: left;
+	font-style: italic;
+	font-family: Georgia;
+	line-height: 18px;
+	border-left: 4px solid #b8b9c8;
+	padding-left: 20px;
+	margin: 25px;
+}
+
 /* -----------------------------------------
 	Buttons
 ----------------------------------------- */
